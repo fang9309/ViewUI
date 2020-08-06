@@ -37,12 +37,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/view-design/ViewUI"
+        "url": "https://github.com/fang9309/ViewUI"
     },
     "author": "Aresn",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/view-design/ViewUI/issues"
+        "url": "https://github.com/fang9309/ViewUI/issues"
     },
     "dependencies": {
         "async-validator": "^3.3.0",

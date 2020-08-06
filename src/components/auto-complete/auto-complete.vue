@@ -131,11 +131,11 @@ export default {
             this.$emit('on-search', query);
         },
         handleSelect(option) {
-            const val = this.isItem ? option.item : option.value;
+            const val = option.value;
             if (val === undefined || val === null) return;
             this.currentValue = val;
             this.$refs.input.blur();
-            this.$emit('on-select', val);
+            this.$emit('on-select', this.isItem ? option.item : val);
         },
         handleFocus(event) {
             this.$emit('on-focus', event);

@@ -135,6 +135,8 @@ export default {
             if (val === undefined || val === null) return;
             this.currentValue = val;
             this.$refs.input.blur();
+            console.log(this.isItem);
+            console.log(option.item);
             this.$emit('on-select', this.isItem ? option.item : val);
         },
         handleFocus(event) {
